@@ -15,6 +15,8 @@ url:              https://commonwealth.im
                   # sidebar_blog_link below.
 
 author:
+  name:           'Commonwealth Labs Inc'
+  url:            https://commonwealth.im
 
 # paginate:         5
 # paginate_path:    '/blog/page:num'
