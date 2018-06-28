@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            Commonwealth
-tagline:          Governance Protocol
-description:      We facilitate scalable governance and decision making for organizations
+tagline:          'A Governance Protocol'
+description:      'We facilitate scalable governance and decision making for organizations'
 url:              https://commonwealth.im
 # baseurl:          '/blog'
                   # the optional subpath of your site, e.g. "/blog"
@@ -15,12 +15,11 @@ url:              https://commonwealth.im
                   # sidebar_blog_link below.
 
 author:
-  name:           'Commonwealth Labs Inc.'
-  url:            https://commonwealth.im
 
 # paginate:         5
-# paginate_path:    '/page:num'
+# paginate_path:    '/blog/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
+
 
 plugins:
   - jekyll-feed
@@ -30,9 +29,12 @@ plugins:
 # Custom vars
 # version:            3.7.0
 sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
   repo:             https://github.com/hicommonwealth
+
+disqus:
+  shortname: https-commonwealth-im

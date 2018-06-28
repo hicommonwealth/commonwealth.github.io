@@ -11,17 +11,22 @@ h1, h2, h3, h4, h5, h6, .site-title {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
+}
+
+h1.index_title {
+  font-size: 3.0rem;
+  font-family: "Playfair Display", serif;
 }
 
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 h4, h5, h6 {
