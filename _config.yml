@@ -3,11 +3,11 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
-url:              https://fongandrew.github.io
-baseurl:          '/blog'
+title:            Commonwealth
+tagline:          'A Governance Protocol'
+description:      'We facilitate scalable governance and decision making for organizations'
+url:              https://commonwealth.im
+# baseurl:          '/blog'
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -15,12 +15,13 @@ baseurl:          '/blog'
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           'Commonwealth Labs Inc'
+  url:            https://commonwealth.im
 
-paginate:         5
-# paginate_path:    '/page:num'
+# paginate:         5
+# paginate_path:    '/blog/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
+
 
 plugins:
   - jekyll-feed
@@ -28,11 +29,14 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:            3.7.0
+# version:            3.7.0
 sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/fongandrew/hydeout
+  repo:             https://github.com/hicommonwealth
+
+disqus:
+  shortname: https-commonwealth-im
