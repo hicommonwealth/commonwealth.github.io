@@ -1,2 +1,1 @@
-# commonwealth.github.io
-Commonwealth Homepage
+This is the [Commonwealth homepage](https://commonwealth.im)
