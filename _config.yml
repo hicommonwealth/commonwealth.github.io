@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            Commonwealth
-tagline:          'A Governance Protocol'
+tagline:          'Governance Protocol'
 description:      'We facilitate scalable governance and decision making for organizations'
 url:              https://commonwealth.im
 # baseurl:          '/blog'

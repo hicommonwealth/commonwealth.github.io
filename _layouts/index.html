@@ -6,7 +6,9 @@
   <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
 
     <main class="container">
-      {{ content }}
+        <div class="content">
+          {{ content }}
+        </div>
     </main>
 
     {% include custom-foot.html %}
