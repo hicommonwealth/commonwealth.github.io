@@ -6,6 +6,10 @@
   <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
 
     <main class="container">
+        <header>
+            <h1 class="index_title">{{ site.title }}</h1>
+        </header>
+
         <div class="content">
           {{ content }}
         </div>

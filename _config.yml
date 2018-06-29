@@ -38,5 +38,10 @@ sidebar_blog_link:  '/blog'   # By default, your home page is your blog
 github:
   repo:             https://github.com/hicommonwealth
 
+social:
+  telegram:         https://t.me/joinchat/HatPBBIp5VBrjIXhTbI2sA
+  twitter:          http://twitter.com/hicommonwealth
+  email:
+
 disqus:
   shortname: https-commonwealth-im

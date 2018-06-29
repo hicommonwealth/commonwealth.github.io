@@ -3,7 +3,6 @@ layout: index
 title: Home
 ---
 
-<h1 class="index_title">{{ site.title }}</h1>
 
 <p>Governing a set of global stakeholders is hugely difficult for blockchain-based protocols. Protocols need clear governance for prompt feature implementation, accountable project teams, and correct resource allocation. We facilitate scalable governance and decision making for protocols and organizations.
 </p>
@@ -22,5 +21,41 @@ title: Home
 <!--End mc_embed_signup-->
 
 <hr>
-<p><b>Contact</b>: <a href="mailto:team@commonwealth.im">team@commonwealth.im</a><br/>
-  <b>Links</b>: <a href="/blog">Blog</a>, <a href="https://github.com/commonwealthprotocol">Github</a>, <a href="https://t.me/joinchat/HatPBBIp5VBrjIXhTbI2sA">Telegram</a>, <a href="http://twitter.com/hicommonwealth">Twitter</a>, <a href="http://fb.me/hicommonwealth">Facebook</a>, <a href="https://medium.com/commonwealth-protocol">Medium</a></p>
+<p>
+  <b>Email</b>: <a href="mailto:team@commonwealth.im">hello@commonwealth.im</a><br/>
+  <b>Links</b>:
+
+  <a href="/blog">Blog</a>,
+  {% if site.github.repo %}
+    <a id="github-link"
+       class="icon" title="Github Project" aria-label="Github Project"
+       href="{{ site.github.repo }}">
+      {% include svg/github.svg %}
+    </a>
+  {% endif %}
+
+  {% if site.social.telegram %}
+  <a id="telegram-link"
+    href="{{ site.social.telegram }}"
+    class="icon"
+    title="Telegram Group"
+    aria-label="Telegram Group"
+  >
+    {% include svg/icons8-telegram-app.svg %}
+  </a>
+  {% endif %}
+
+  {% if site.social.telegram %}
+  <a id="twitter-link"
+    href="{{ site.social.twitter }}"
+    class="icon"
+    title="Twitter"
+    aria-label="Twitter"
+  >
+    {% include svg/icons8-twitter.svg %}
+  </a>
+  {% endif %}
+
+<!--   ,<a href="http://fb.me/hicommonwealth">Facebook</a>, <a href="https://medium.com/commonwealth-protocol">Medium</a></p>
+ -->
+
