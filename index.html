@@ -29,7 +29,8 @@ title: Home
   <a href="https://angel.co/commonwealth-labs" target="_blank">Jobs</a>
   &middot;
 
-  <a href="/blog">Blog</a>,
+  <a href="/blog">Blog</a>
+  &middot;
   {% if site.github.repo %}
     <a id="github-link"
        class="icon" title="Github Project" aria-label="Github Project"
@@ -37,6 +38,7 @@ title: Home
       {% include svg/github.svg %}
     </a>
   {% endif %}
+  &middot;
 
   {% if site.social.telegram %}
   <a id="telegram-link"
@@ -48,8 +50,9 @@ title: Home
     {% include svg/icons8-telegram-app.svg %}
   </a>
   {% endif %}
+  &middot;
 
-  {% if site.social.telegram %}
+  {% if site.social.twitter %}
   <a id="twitter-link"
     href="{{ site.social.twitter }}"
     class="icon"
