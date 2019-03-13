@@ -4,6 +4,6 @@ title: Team
 permalink: /team/
 ---
 
-For more info contact: [team@commonwealth.im](mailto:team@commonwealth.im)
+For more info contact: [founders@commonwealth.im](mailto:founders@commonwealth.im)
 
 
